@@ -1,0 +1,28 @@
+{
+  "name": "testgit",
+  "version": "1.0.0",
+  "description": "An awesome API Rest to handle some TestGit",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanGuillaumeZaplana/testGit.git"
+  },
+  "author": "Jean-Guillaume",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeanGuillaumeZaplana/testGit/issues"
+  },
+  "homepage": "https://github.com/JeanGuillaumeZaplana/testGit#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.18"
+  }
+}
